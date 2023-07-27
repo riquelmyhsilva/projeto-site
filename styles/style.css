@@ -14,3 +14,34 @@ main {
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
+img {
+    height: 200px;
+}
+
+.right {
+    float: right;
+}
+
+.button {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(99, 158, 181, 0.5);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    color: rgb(192, 225, 253);
+    background-color: rgba(37, 79, 95, 0.5);
+}
+
+.button:active {
+    color: rgb(53, 117, 173);
+    background-color: rgba(55, 140, 215, 0.5);
+}
